@@ -22,7 +22,7 @@ We are confident, it is the best choice to utilize SAP Data on AWS.
 
 ### Solution Highlights
 
-<img src="https://aws-product-page-resource.s3.ap-northeast-2.amazonaws.com/data-connector/Picture_features.png" title="solution highlights" alt="picture1"></img><br/>
+![Visualization1] (https://aws-product-page-resource.s3.ap-northeast-2.amazonaws.com/data-connector/Picture_features.png "solution highlights")
 
 * Data Connector for SAP on AWS eliminates barriers to analyzing data from SAP by Transporting data into a cost-effective and scalable data storage AWS S3 & Athena.
 
