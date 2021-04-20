@@ -21,8 +21,7 @@ By deploying AWS serverless infrastructure in AWS, enterprise can leverage AWS s
 We are confident, it is the best choice to utilize SAP Data on AWS.
 
 ### Solution Highlights
-
-![Visualization1] (https://aws-product-page-resource.s3.ap-northeast-2.amazonaws.com/data-connector/Picture_features.png "solution highlights")
+![텍스트](https://aws-product-page-resource.s3.ap-northeast-2.amazonaws.com/data-connector/Picture_features.png)
 
 * Data Connector for SAP on AWS eliminates barriers to analyzing data from SAP by Transporting data into a cost-effective and scalable data storage AWS S3 & Athena.
 
