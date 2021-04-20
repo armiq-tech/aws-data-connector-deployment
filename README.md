@@ -1,26 +1,30 @@
 # Data Connector for SAP on AWS
   User Deployment Guide - AWS Marketplace : [Data Connector for SAP on AWS](https://aws.amazon.com/marketplace/pp/B08JCMQ9PT)
-## Introduction
-  ARMIQ Data Connector for SAP is an SAP add-on software, written in the Advanced Business Application Programming (ABAP) language, that enables SAP systems to integrate with AWS using IDoc & Hana client. By deploying AWS serverless infrastructure in AWS, enterprises can leverage AWS services as an extension of their SAP workloads using the same tools and programing language they already use.
-     
-  This guide will detail the steps to deploy the AWS Serverles PaaS service with AWS CDK. Also, we offer ABAP Program for SAP user.
+## Company Introduction
+  ARMIQ is a R&D company which research SAP system-based solution. Starting off in 2009 as ARMIQ Consulting, the company is growing as a company specializing in data compression archiving, data migration, data encryption, etc. We provide the best services to become a trusted business partner with constant innovation and effort.
+  We believe your data should deliver immediate business value and Data Connector for SAP is smarter, more cost-effective to the typical cloud data warehouse. Data Connector for SAP can transfer and prepare data for analytical and business insights in across AI, ML analytics and other hybrid environments.
+  Please visit our website - <https://armiq.com>
    
-## Prerequisites and Requirements
-### Deploy application using IDE environment
-  1. Recommend IDE Tool : [Visiual Studio Code (VS Code)](https://code.visualstudio.com/)
-  2. Install the extension : [AWS Toolkit for Visual Studio Code](https://aws.amazon.com/ko/visualstudiocode/)
-  3. Configure the AWS CLI with AWS Toolkit for VS Code.
-  4. Establish the AWS credentials by using the AWS Toolkit for VS Code
-  5. Install the AWS CDK command line interface
-   
-  **NOTE:** If you are setting up the AWS credentials with the extension tool for the first time, you can follow the documentation at <https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/welcome.html> to configure the AWS credentials.
-### Time
-  The deployment will take about [30 Minutes], but configuration and testing could take up to [2 Hours].
-### Product License
-  Bring your own license (BYOL) - Subscribe throught the AWS Marketplace and apply an existing license. Generally appropriate for deployments with extremely heavy usage, abnormal access patterns, or other concerns. Please contact us directly to order a license at helpdesk@armiq.com. You can check our BYOL policy in product page, following site: <https://aws.amazon.com/marketplace/pp/B08JCMQ9PT>
-### AWS Account
-  You must have an AWS account set-up. If you don't, we recommend that you visit the following sithe: <https://aws.amazon.com/getting-started>
-### AWS Identity and Access Management (IAM) Entity
-  Create an IAM user or role. Your IAM user should have a policy that allows AWS CloufFormation actions. Do not use your root account to deploy the CloudFormation template. In addition to AWS CloudFormation actions, IAM users who create or delete stacks will alse require additional permissions that depend on the stack template. This deployment requires permissions to all services listed in the following section.   
-  Reference: <https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/usingiam-template.html>
+## Product Introduction
+  ARMIQ Data Connector for SAP is an SAP add-on software, written in the Advanced Business Application Programming (ABAP) language, that enables SAP systems to integrate with AWS using IDoc & Hana client. By deploying AWS serverless infrastructure in AWS, enterprise can leverage AWS services as an extension of their SAP workloads using the same tools and programming language they already use.
+  We are confident, it is the best choice to utilize SAP Data on AWS.
+  * Solution Highlights
+    A. Data Connector for SAP on AWS eliminates barriers to analyzing data from SAP by Transporting data into a cost-effective and scalable data storage AWS S3 & Athena.
+    B. With this connector you do not just migrate to the cloud, you become integrated with all the possibilities of the cloud, allowing you to operate more efficiently.
+    C.	Data Connector for SAP can manage transport row counts, select conditions (columns, query), progress, log. This connector is based on SAP IDoc and HANA Client.   
+        SAP ECC & HDB can deploy package with database independently
 
+  * Features
+    A.	SAP Data Cloud Integration   
+        Data analysts and data scientists use SAP Data for their research and analysis. It can be easily used for business, and it supports innovation activities of core business by comprehensively understanding enterprise data.
+    B.	Immediate use of data   
+        SAP table data are automatically converted into JSON format that is easy to use in the cloud, and data divided into blocks is integrated into Athena, so data analysts and data scientists can use it immediately without the need for data conversion.
+    C.	Low Cost   
+        Data Connector for SAP compresses and transmits SAP data into 10,000 to 50,000 cases. This can effectively reduce the cost of data transmission and S3 data storage. It is possible to delete tables that are not in use, so operating costs can be reduced.
+    D.	Safe and guaranteed transmission   
+        Data Connector for SAP can easily monitor all data transmission situations and is transmitted securely by utilizing IDoc and HANA Client technology provided by SAP, which can be linked to the cloud regardless of database vendors.
+    E.	Scalability and Flexibility   
+        Cloud-native & complete serverless architecture automatically expands performance and capacity according to service requests and allows flexible application of the cutting-edge technology services in a cloud environment.
+    F.	Accurate performance tracking   
+        Billing in the cloud must accurately measure the execution of the service.
+Users can quantify the performance of the service in numerical form and use it as a basis for future system performance expansion and cost reduction.
